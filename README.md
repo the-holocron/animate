@@ -11,11 +11,11 @@ $ npm install --save-dev @theholocron/animate
 ## Table of Contents
 
 * [Usage](#usage)
-- [Documentation](#where-to-find-documentation)
+* [Documentation](#where-to-find-documentation)
 * [Change Log](#how-we-track-changes)
 * [Versioning](#how-we-version)
 * [Contribution](#how-to-contribute)
-- [Tools](#tools-we-use)
+* [Tools](#tools-we-use)
 * [Support](#where-to-find-suport)
 * [License](#license)
 
