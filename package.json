@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "main": "src/_index.scss",
   "files": [
+    "dist",
     "src"
   ],
   "repository": "https://github.com/the-holocron/animate.git",
