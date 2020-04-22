@@ -21,7 +21,11 @@ $ npm install --save-dev @theholocron/animate
 
 ## Usage
 
+If you're using (S)CSS, preferably `dart-sass`, then there are a few ways you can import.  Each of these will produce a CSS class that can then be used within your HTML.  
+
 ```scss
+// _index.scss
+
 // include all animations with 'animate' as the namespace
 // calls all mixins and will include in CSS output
 @use "./node_modules/@theholocron/animate/src" as animate;
@@ -50,7 +54,21 @@ $ npm install --save-dev @theholocron/animate
 @include bounce-back-forth('.another-class');
 ```
 
-Then copy the code below, swapping out the `<animation-name>` for one of the ones listed below. Add `.infinite` to keep the animation going on forever.
+If you only want the CSS, there are several configurations you can choose. The following uses [unpkg](https://unpkg.com/) as a CDN, so all of the rules apply to retrieving a specific version or file. 
+
+* The `[@<semver>]` is an optional field that allows you to pick a specific version, or if you omit it will grab the latest tagged version.
+* The `[min]` is optional as well, but highly recommended if you're going to call the CSS file directly in your HTML, as its minified.
+* The `<type>` is a required field that allows one to pick a specific group of animations to include or include the entire set. The following are allowed types:
+  * `animate` - the entire collection
+  * `bounce` - only include the bounce animations
+  * `fade` - only include the fade animations
+  * `slide` -  only include the slide animations
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/@theholocron/animate[@<semver>]/dist/<type>.[min].css" />
+```
+
+Once you've determined how you're going to include the files, then copy the code below, swapping out the `<animation-name>` for one of the ones in a collection. Add `.infinite` to keep the animation going on forever. And if you change out the `$base-class`, as in one of the examples above, then be sure to swap out `animate` for that.
 
 ```html
 <div class="animate <animation-name>">Text</div>
