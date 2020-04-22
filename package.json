@@ -56,7 +56,6 @@
     "dist": "npm run sass",
     "postdist": "postcss dist/*.css --config ./node_modules/@theholocron/postcss-config --replace",
     "readme": "for file in src/**/*.scss; do sassdoc2md $file >> ${file%/*}/README.md; done",
-    "prerelease": "npm run dist",
     "release": "semantic-release",
     "sass": "sass src/animate.scss:dist/animate.css src/bounce/bounce.scss:dist/animate.bounce.css src/fade/fade.scss:dist/animate.fade.css src/slide/slide.scss:dist/animate.slide.css",
     "postsass": "sass --style=compressed src/animate.scss:dist/animate.min.css src/bounce/bounce.scss:dist/animate.bounce.min.css src/fade/fade.scss:dist/animate.fade.min.css src/slide/slide.scss:dist/animate.slide.min.css",

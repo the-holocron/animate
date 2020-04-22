@@ -41,10 +41,8 @@ jobs:
         env:
           CI: true
         run: npm ci
-      - name: Lint documentation
-        run: npm run lint:docs
       - name: Lint styles
-        run: npm run lint:css
+        run: npm run lint
       - name: Test documentation
         run: npm run test:docs
       - name: Test code
