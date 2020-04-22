@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/the-holocron/animate/compare/1.0.0...1.0.1) (2020-04-22)
+
+
+### Bug Fixes
+
+* add in dist files for package ([ecba483](https://github.com/the-holocron/animate/commit/ecba483ef70f8414087cd7e3fb9ee0d3381ed452))
+
 # 1.0.0 (2020-04-22)
 
 
