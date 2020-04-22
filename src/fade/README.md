@@ -2,35 +2,35 @@
 
 Fade animations are a bit more subtle.  They still come from the opposite direction listed in the class (named after the direction it travels) but they transition the opacity of the element instead.
 
-## Table of Contents
+<details>
+	<summary><strong>Table of Contents</strong> (click to expand)</summary>
 
-<!-- toc -->
+* [fade-flash](#fade-flash)
+* [fade-in-down ](#fade-in-down)
+* [fade-in-left](#fade-in-left)
+* [fade-in-right](#fade-in-right)
+* [fade-in-up](#fade-in-up)
+* [fade-in](#fade-in)
+* [fade-out-down](#fade-out-down)
+* [fade-out-left](#fade-out-left)
+* [fade-out-right](#fade-out-right)
+* [fade-out-up](#fade-out-up)
+* [fade-out](#fade-out)
 
-* [`@mixin fade-flash`](#mixin-fade-flash)
-* [`@mixin fade-in-down`](#mixin-fade-in-down)
-* [`@mixin fade-in-left`](#mixin-fade-in-left)
-* [`@mixin fade-in-right`](#mixin-fade-in-right)
-* [`@mixin fade-in-up`](#mixin-fade-in-up)
-* [`@mixin fade-in`](#mixin-fade-in)
-* [`@mixin fade-out-down`](#mixin-fade-out-down)
-* [`@mixin fade-out-left`](#mixin-fade-out-left)
-* [`@mixin fade-out-right`](#mixin-fade-out-right)
-* [`@mixin fade-out-up`](#mixin-fade-out-up)
-* [`@mixin fade-out`](#mixin-fade-out)
+</details>
 
-<!-- tocstop -->
-
-## `@mixin fade-flash`
+## fade-flash
 
 This will take the element and fade it in from its current position.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -39,21 +39,18 @@ This will take the element and fade it in from its current position.
 @include fade-flash();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-in-down`
+## fade-in-down
 
 This will take the element and fade it in from the top.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -62,21 +59,18 @@ This will take the element and fade it in from the top.
 @include fade-in-down();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-in-left`
+## fade-in-left
 
 This will take the element and fade it in from the left.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -85,21 +79,18 @@ This will take the element and fade it in from the left.
 @include fade-in-left();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-in-right`
+## fade-in-right
 
 This will take the element and fade it in from the right.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -108,22 +99,19 @@ This will take the element and fade it in from the right.
 @include fade-in-right();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-in-up`
+## fade-in-up
 
 This will take the element and fade it in from the bottom.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
-| `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
+| Name             | Type                                                             | Description                                       | Default      |
+| :--------------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| `$classNameName` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
 
@@ -131,21 +119,18 @@ This will take the element and fade it in from the bottom.
 @include fade-in-up();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-in`
+## fade-in
 
 This will take the element and fade it in from its current position.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -154,21 +139,18 @@ This will take the element and fade it in from its current position.
 @include fade-in();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-out-down`
+## fade-out-down
 
 This will take the element and fade it out from the bottom.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -177,21 +159,18 @@ This will take the element and fade it out from the bottom.
 @include fade-out-down();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-out-left`
+## fade-out-left
 
 This will take the element and fade it out from the left.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -200,21 +179,18 @@ This will take the element and fade it out from the left.
 @include fade-out-left();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-out-right`
+## fade-out-right
 
 This will take the element and fade it out from the right.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -223,21 +199,18 @@ This will take the element and fade it out from the right.
 @include fade-out-right();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-out-up`
+## fade-out-up
 
 This will take the element and fade it out from the top.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -246,21 +219,18 @@ This will take the element and fade it out from the top.
 @include fade-out-up();
 ```
 
-### Since
-
-* **0.1.0**
-
-## `@mixin fade-out`
+## fade-out
 
 This will take the element and fade it out from its current position.
 
-* **Group:** General
-* **Access:** public
+* **Group**: General
+* **Access**: public
+* **Since**: 0.1.0
 
 ### Parameters
 
-| Name     | Type                                                             | Description                                       | Default      |
-| :------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
+| Name         | Type                                                             | Description                                       | Default      |
+| :----------- | :--------------------------------------------------------------- | :------------------------------------------------ | :----------- |
 | `$className` | **[String](https://sass-lang.com/documentation/values/strings)** | a CSS class name to add to activate the animation | `".animate"` |
 
 ### Examples
@@ -268,7 +238,3 @@ This will take the element and fade it out from its current position.
 ```scss
 @include fade-out();
 ```
-
-### Since
-
-* **0.1.0**

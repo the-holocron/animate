@@ -4,6 +4,7 @@
 /// This will take the element and animate it from the top down with a bounce at the end.
 /// @since 0.1.0
 /// @param {String} $className [".animate"] - a CSS class name to add to activate the animation
+/// @param {Number} $width [20%] - a percentage of the width to take up
 /// @example scss
 ///   @include bounce-back-forth();
 @mixin bounce-back-forth($className: config.$base-class, $width: 20%) {
