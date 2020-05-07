@@ -1,4 +1,4 @@
-# Animate
+# Configuration
 
 <details>
 	<summary><strong>Table of Contents</strong> (click to expand)</summary>
