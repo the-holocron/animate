@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/the-holocron/ahsoka/compare/1.0.1...1.1.0) (2020-05-07)
+
+
+### Bug Fixes
+
+* dist output ([8ad3f90](https://github.com/the-holocron/ahsoka/commit/8ad3f901bfa806d6e52d749b9a81bb623cd27076))
+
+
+### Features
+
+* rename ([aaeb693](https://github.com/the-holocron/ahsoka/commit/aaeb69359e4a8abb683c95cc393de09e5c5b1122))
+
 ## [1.0.1](https://github.com/the-holocron/ahsoka/compare/1.0.0...1.0.1) (2020-04-22)
 
 

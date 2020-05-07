@@ -3,7 +3,7 @@
   "homepage": "https://the-holocron.github.io/ahsoka",
   "description": "This provides a set of single-purpose, functional utilities for writing (S)CSS animations within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "src/_index.scss",
   "files": [
     "dist",
