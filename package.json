@@ -67,7 +67,7 @@
     "test:integration": "sass --no-source-map test/integration.test.scss test/integration.test.css"
   },
   "dependencies": {
-    "@theholocron/config": "^0.1.0"
+    "@theholocron/config": "^0.3.0"
   },
   "peerDependencies": {
     "sass": "^1.26.3"
